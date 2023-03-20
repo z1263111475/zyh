@@ -84,7 +84,7 @@ video {
 }
 
 .dropdown-content a:hover {
-  background-color: rgba(0, 0, 0, 0);
+  color: rgba(203, 97, 15, 0.818);
 }
 
 .dropdown:hover .dropdown-content {
@@ -92,5 +92,20 @@ video {
 }
 
 .dropdown:hover .dropbtn {
-  background-color: rgba(0, 0, 0, 0);
+  color: rgba(177, 16, 118, 0.675);
+}
+@-webkit-keyframes like {
+  0% {
+    margin-left: 0;
+  }
+  50% {
+    margin-left: -15px;
+  }
+  100% {
+    margin-left: -30px;
+  }
+}
+.like {
+  font-size: 20px;
+  animation: like 3s linear 0 infinite;
 }
