@@ -173,7 +173,7 @@ div {
   }
 
   14% {
-    stroke: #ff005d;
+    stroke: #75357e;
   }
 
   100% {
@@ -183,7 +183,7 @@ div {
 
 @keyframes flicker2 {
   0% {
-    stroke: #ff005d;
+    stroke: #2f9932;
   }
 
   50% {
@@ -199,7 +199,7 @@ div {
   }
 
   62% {
-    stroke: #ff005d;
+    stroke: #37799d;
   }
 
   100% {
@@ -209,7 +209,7 @@ div {
 
 @keyframes flicker3 {
   0% {
-    stroke: #ff005d;
+    stroke: #0f4a63;
   }
 
   1% {
@@ -221,11 +221,11 @@ div {
   }
 
   11% {
-    stroke: #ff005d;
+    stroke: #2d8a4c;
   }
 
   40% {
-    stroke: #ff005d;
+    stroke: #37a41c;
   }
 
   41% {
@@ -247,7 +247,7 @@ div {
 
 @keyframes flicker4 {
   0% {
-    color: #ff005d;
+    color: #471727;
     text-shadow: 0px 0px 4px #ff005d;
   }
 
@@ -282,12 +282,12 @@ div {
   }
 
   42% {
-    color: #ff005d;
+    color: #c57117;
     text-shadow: 0px 0px 4px #ff005d;
   }
 
   85% {
-    color: #ff005d;
+    color: #319062;
     text-shadow: 0px 0px 4px #ff005d;
   }
 
@@ -297,13 +297,13 @@ div {
   }
 
   95% {
-    color: #12000a;
+    color: #0098af7d;
     text-shadow: 0px 0px 4px #12000a;
   }
 
   96% {
-    color: #ff005d;
-    text-shadow: 0px 0px 4px #ff005d;
+    color: #0e3880;
+    text-shadow: 0px 0px 4px #ddaabd;
   }
 
   100% {
@@ -342,3 +342,4 @@ div {
     filter: hue-rotate(0deg);
   }
 }
+
