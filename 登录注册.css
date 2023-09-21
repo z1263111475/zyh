@@ -1,0 +1,97 @@
+body {
+  background-image: url("/img/cat.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 120%;
+  /*溢出隐藏*/
+  overflow: hidden;
+}
+.container {
+  width: 400px;
+  margin: 7% auto;
+  background-color: rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 15px #555;
+  border-radius: 25px;
+}
+.header {
+  text-align: center;
+  padding-top: 40px;
+}
+.header h1 {
+  letter-spacing: 2px;
+  font-size: 45px;
+  color: #333;
+  margin-bottom: 40px;
+}
+.main {
+  text-align: center;
+}
+.main input,
+button {
+  width: 300px;
+  height: 50px;
+  border: none;
+  /*去掉选择边框*/
+  outline: none;
+  padding-left: 40px;
+  box-sizing: border-box;
+  font-size: 20px;
+  color: rgb(49, 69, 9);
+  margin-bottom: 40px;
+  background-color: #ffffff4d;
+}
+.main button {
+  letter-spacing: 2px;
+  padding-left: 0;
+  background-color: #92acf1;
+  margin-bottom: 80px;
+}
+.main button:hover {
+  box-shadow: 2px 2px 5px #555;
+  background-color: bisque;
+}
+.main input:hover {
+  background-color: rgb(177, 184, 174);
+  box-shadow: 2px 2px 5px #555;
+}
+.main span {
+  /*相对定位*/
+  position: relative;
+}
+.main i {
+  position: absolute;
+  left: 15px;
+  font-size: 16px;
+  top: 2.5px;
+  color: #555;
+}
+.container a {
+  font-size: 1.2rem;
+}
+.other {
+  margin: 0.6rem 0;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.other a {
+  border: 1px solid rgb(237, 226, 226);
+  border-radius: 50%;
+  width: 1.8rem;
+  height: 1.8rem;
+  margin: 0.5px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: #333;
+  background-color: rgba(0, 0, 0, 0.2);
+  font-size: 20px;
+  padding: 5px;
+  text-decoration: none;
+}
+.word1 {
+  margin-top: -20px;
+  text-align: center;
+}
+.word1 span {
+  color: rgba(255, 254, 254, 0.7);
+  font-size: 22px;
+}
