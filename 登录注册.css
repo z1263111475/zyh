@@ -1,5 +1,5 @@
 body {
-  background-image: url("/img/cat.jpg");
+  background-image: url("cat.jpg");
   background-repeat: no-repeat;
   background-size: 100% 120%;
   /*溢出隐藏*/
